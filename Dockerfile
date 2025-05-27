@@ -1,5 +1,5 @@
 # Stage 1: Build the jar with Maven
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+FROM maven:3.9.9-eclipse-temurin-17 AS build
 
 WORKDIR /app
 
